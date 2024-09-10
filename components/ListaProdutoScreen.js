@@ -17,8 +17,8 @@ export default props => {
 const Item = ({elemento: item }) => {
   return(
   <List.Item
-    title={ item.titulo }
-    description={ item.descricao }
+    title={item.titulo}
+    description={item.descricao}
     // left={props => <List.Icon {...props} icon="folder" />}
     left={props => 
     <Image {...props} style={styles.tinyLogo} 
